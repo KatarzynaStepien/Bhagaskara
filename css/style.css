@@ -127,6 +127,9 @@ table {
 
 [class*='col-'] {
   float: left;
+  border: 1px solid red;
+  height: 100px;
+  min-height: 1px;
 }
 
 .centerText {
@@ -134,7 +137,7 @@ table {
 }
 
 .logo {
-  margin-top: 2%;
+  margin-top: 10%;
   display: inline-block;
 }
 
@@ -149,14 +152,43 @@ table {
   text-align: center;
 }
 
-.row {
-  display: inline-block;
+.icons {
+  width: 100%;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  padding-bottom: 60%;
+}
+.icons img {
+  width: 20%;
 }
 
-.icons {
-  background-image: url("../img/icons/icon_shape.png.png");
-  background-repeat: no-repeat;
-  padding-bottom: 40%;
+.icons_1 {
+  background-image: url("../img/icons/icon_shape.png");
+}
+
+.icons_2 {
+  background-image: url("../img/icons/icon_shape.png");
+}
+
+.icons_3 {
+  width: 100%;
+  background-size: 100% auto;
+  background-image: url("../img/icons/icon_shape.png");
+}
+
+.icons_4 {
+  width: 100%;
+  background-image: url("../img/icons/icon_shape.png");
+}
+
+.icons_5 {
+  width: 100%;
+  background-image: url("../img/icons/icon_shape.png");
+}
+
+.icons_6 {
+  width: 100%;
+  background-image: url("../img/icons/icon_shape2.png");
 }
 
 /*# sourceMappingURL=style.css.map */
