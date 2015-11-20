@@ -1,0 +1,13 @@
+.main {
+  width: 100%;
+  background-image: url("../img/main_foto.png");
+}
+
+.main_width {
+  max-width: 1160px;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+
+/*# sourceMappingURL=mainstyle.css.map */

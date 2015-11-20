@@ -1,0 +1,162 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.main {
+  width: 100%;
+  background-image: url("../img/main_foto.png");
+  background-size: 100% auto;
+  padding-bottom: 60%;
+  background-repeat: no-repeat;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.grid_container {
+  width: 90%;
+  max-width: 1160px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.col-1 {
+  width: 8.3333%;
+}
+
+.col-2 {
+  width: 16.6666%;
+}
+
+.col-3 {
+  width: 24.9999%;
+}
+
+.col-4 {
+  width: 33.3332%;
+}
+
+.col-5 {
+  width: 41.6665%;
+}
+
+.col-6 {
+  width: 49.9998%;
+}
+
+.col-7 {
+  width: 58.3331%;
+}
+
+.col-8 {
+  width: 66.6664%;
+}
+
+.col-9 {
+  width: 74.9997%;
+}
+
+.col-10 {
+  width: 83.333%;
+}
+
+.col-11 {
+  width: 91.6663%;
+}
+
+.col-12 {
+  width: 99.9996%;
+}
+
+.row:before,
+.row:after {
+  display: table;
+  clear: both;
+  content: '';
+}
+
+[class*='col-'] {
+  float: left;
+}
+
+.centerText {
+  text-align: center;
+}
+
+.logo {
+  margin-top: 2%;
+  display: inline-block;
+}
+
+.main_text h1 {
+  color: white;
+  font-size: 48px;
+  text-align: center;
+}
+.main_text p {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+
+.row {
+  display: inline-block;
+}
+
+.icons {
+  background-image: url("../img/icons/icon_shape.png.png");
+  background-repeat: no-repeat;
+  padding-bottom: 40%;
+}
+
+/*# sourceMappingURL=style.css.map */
