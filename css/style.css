@@ -67,7 +67,6 @@ table {
   width: 90%;
   max-width: 1160px;
   box-sizing: border-box;
-  border: 1px solid black;
   margin: 0 auto;
 }
 
@@ -128,25 +127,22 @@ table {
 
 [class*='col-'] {
   float: left;
-  border: 1px solid red;
   min-height: 1px;
 }
 
 .centerText {
   text-align: center;
 }
-
-.logo {
+.centerText .logo {
   margin-top: 3%;
   display: inline-block;
 }
-
-.main_text h1 {
+.centerText .main_text h1 {
   color: white;
   font-size: 48px;
   text-align: center;
 }
-.main_text p {
+.centerText .main_text p {
   color: white;
   font-size: 24px;
   text-align: center;
@@ -191,49 +187,53 @@ table {
 .icons_5 {
   width: 75%;
   background-image: url("../img/icons/icon_shape.png");
-  margin: 70% auto;
+  margin: 69% auto;
 }
 
 .icons_6 {
   width: 75%;
   background-image: url("../img/icons/icon_shape2.png");
-  margin: 70% auto;
+  margin: 69% auto;
 }
 
 .menu {
   background-color: white;
   width: 100%;
-  height: 142px;
-  border: 1px solid black;
+  height: 100px;
 }
-
-.nav_left {
+.menu .nav_left {
   margin-left: 10%;
   margin-top: 6%;
 }
-
-nav li {
+.menu ul {
+  float: right;
+  padding-right: 8%;
+  margin-top: -2%;
+}
+.menu ul li {
   display: inline-block;
   text-transform: uppercase;
   margin: 0 auto;
 }
-
-nav a {
+.menu ul li a {
   float: right;
   color: #959595;
   text-transform: uppercase;
   text-decoration: none;
 }
 
-nav ul {
-  float: right;
-  padding-right: 8%;
-  margin-top: -2%;
+.sticky {
+  position: fixed;
+  top: 0;
 }
 
 .grey {
   width: 100%;
   background-color: #eeeeee;
+}
+.grey .grey_text {
+  text-align: center;
+  margin-bottom: 45%;
 }
 
 .icons2 {
@@ -245,6 +245,7 @@ nav ul {
   padding-top: 30%;
   text-align: center;
   margin: 0 auto;
+  margin-top: 45%;
 }
 .icons2 img {
   width: 36%;
@@ -266,11 +267,11 @@ nav ul {
   background-image: url("../img/icons2/shape1.png");
 }
 
-.grey_text {
-  text-align: center;
+.tele {
+  width: 100%;
+  margin-bottom: 10%;
 }
-
-.aboutUs {
+.tele .aboutUs {
   width: 20%;
   padding-bottom: 13%;
   height: 0;
@@ -278,27 +279,33 @@ nav ul {
   text-align: center;
   margin: 0 auto;
 }
-.aboutUs img {
-  width: 100%;
+.tele .aboutUs img {
+  width: 120%;
 }
-
-.tele {
-  width: 100%;
-}
-
-.teleText {
+.tele .teleText {
   margin: 0 auto;
+  margin-left: 10%;
 }
-
-.teleFoto {
+.tele .teleFoto {
   background-size: 100% auto;
   background-repeat: no-repeat;
   padding-bottom: 66%;
   height: 0;
   text-align: right;
 }
-.teleFoto img {
-  width: 70%;
+.tele .teleFoto img {
+  width: 90%;
+}
+.tele #button {
+  width: 130px;
+  height: 40px;
+  border-radius: 5px;
+  background: #9f449b;
+  margin-top: 65px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 8px;
+  color: white;
 }
 
 .pic {
@@ -319,8 +326,7 @@ nav ul {
 .anne {
   width: 100%;
 }
-
-.ourTeam {
+.anne .ourTeam {
   width: 20%;
   padding-bottom: 13%;
   height: 0;
@@ -328,21 +334,19 @@ nav ul {
   text-align: center;
   margin: 0 auto;
 }
-.ourTeam img {
+.anne .ourTeam img {
   width: 100%;
 }
-
-.shape {
+.anne .shape {
   width: 8%;
   padding-bottom: 13%;
   height: 0;
   margin: 0 auto;
 }
-.shape img {
+.anne .shape img {
   width: 45%;
 }
-
-.elipse1 {
+.anne .elipse1 {
   background-size: 100% auto;
   background-repeat: no-repeat;
   padding-bottom: 96%;
@@ -366,7 +370,10 @@ nav ul {
   width: 45%;
 }
 
-.ourSkills {
+.skills {
+  width: 100%;
+}
+.skills .ourSkills {
   width: 20%;
   padding-bottom: 13%;
   height: 0;
@@ -374,8 +381,230 @@ nav ul {
   text-align: center;
   margin: 0 auto;
 }
-.ourSkills img {
+.skills .ourSkills img {
   width: 100%;
+}
+
+.cyfry {
+  text-align: center;
+  font-size: 64px;
+  margin-top: 30%;
+}
+
+.smallShape {
+  width: 50%;
+  padding-bottom: 25%;
+  height: 0;
+  margin: 10% auto;
+  text-align: center;
+}
+.smallShape img {
+  width: 40%;
+}
+
+.quotation {
+  text-align: center;
+}
+
+.portfolio {
+  width: 100%;
+}
+
+.images {
+  width: 100%;
+  padding-bottom: 86%;
+  padding-top: 17%;
+  height: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+.images img {
+  width: 80%;
+}
+
+.ourPortfolio {
+  width: 20%;
+  padding-bottom: 13%;
+  height: 0;
+  padding-top: 7%;
+  text-align: center;
+  margin: 0 auto;
+}
+.ourPortfolio img {
+  width: 100%;
+}
+
+.fourButtons {
+  width: 100%;
+}
+
+#button1 {
+  width: 62px;
+  height: 31px;
+  border-radius: 5px;
+  background: #9f449b;
+  margin-left: 35%;
+  margin-top: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 8px;
+  color: white;
+}
+
+#button2 {
+  width: 62px;
+  height: 31px;
+  border-radius: 5px;
+  background: white;
+  margin-top: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 8px;
+  color: #222222;
+}
+
+#button3 {
+  width: 62px;
+  height: 31px;
+  border-radius: 5px;
+  background: white;
+  margin-top: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 8px;
+  color: #222222;
+}
+
+#button4 {
+  width: 62px;
+  height: 31px;
+  border-radius: 5px;
+  background: white;
+  margin-top: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 8px;
+  color: #222222;
+}
+
+.portfolioButton {
+  width: 100%;
+}
+.portfolioButton #button5 {
+  width: 130px;
+  height: 40px;
+  border-radius: 5px;
+  background: #9f449b;
+  margin-left: 45%;
+  margin-top: 57px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 8px;
+  color: white;
+}
+
+.subtitles {
+  text-align: center;
+}
+
+.form {
+  width: 100%;
+  background: white;
+}
+.form .getInTouch {
+  width: 20%;
+  padding-bottom: 13%;
+  height: 0;
+  padding-top: 7%;
+  text-align: center;
+  margin: 0 auto;
+}
+.form .getInTouch img {
+  width: 100%;
+}
+
+.formularz1 {
+  float: left;
+  width: 100%;
+}
+
+input[type="text"] {
+  width: 75%;
+  padding: 21px 5px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+textarea {
+  padding: 5px 5px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  margin-left: 100px;
+  height: 200px;
+  width: 75%;
+}
+
+.form_text {
+  margin-left: 10%;
+  margin-top: 4%;
+}
+
+.social_icons {
+  width: 85%;
+  padding-bottom: 16%;
+  padding-top: 5%;
+  height: 0;
+  margin: 0 auto;
+}
+.social_icons img {
+  width: 68px;
+}
+
+.contactButton {
+  width: 100%;
+}
+.contactButton #button6 {
+  width: 130px;
+  height: 40px;
+  border-radius: 5px;
+  background: #9f449b;
+  margin-left: 22%;
+  margin-top: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 8px;
+  color: white;
+}
+
+.lastLogo {
+  text-align: center;
+}
+.lastLogo .logo2 {
+  margin-top: 3%;
+  display: inline-block;
+}
+
+.long {
+  width: 200%;
+  height: 20px;
+}
+
+.scales {
+  width: 100%;
+  height: 250px;
+  border: 1px solid black;
+}
+.scales .skillWeb {
+  width: 50%;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.pasek1 {
+  width: 90%;
+  height: 40px;
+  background-color: #9f449b;
 }
 
 /*# sourceMappingURL=style.css.map */
