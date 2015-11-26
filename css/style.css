@@ -202,13 +202,12 @@ table {
   height: 100px;
 }
 .menu .nav_left {
-  margin-left: 10%;
-  margin-top: 6%;
+  margin-left: 3%;
+  margin-top: 3%;
 }
 .menu ul {
   float: right;
-  padding-right: 8%;
-  margin-top: -2%;
+  margin-top: -3%;
 }
 .menu ul li {
   display: inline-block;
@@ -323,6 +322,31 @@ table {
   background-attachment: fixed;
 }
 
+.icons4 {
+  width: 13%;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  padding-bottom: 61%;
+  height: 0;
+  padding-top: 5%;
+  text-align: center;
+}
+.icons4 img {
+  width: 36%;
+}
+
+.secondPicIcon {
+  background-image: url("../img/shapeFoto.png");
+  margin: 6% auto;
+}
+
+.secondPicText {
+  text-transform: uppercase;
+  color: white;
+  margin-top: -51%;
+  text-align: center;
+}
+
 .anne {
   width: 100%;
 }
@@ -348,12 +372,14 @@ table {
 }
 .anne .elipse1 {
   background-size: 100% auto;
-  background-repeat: no-repeat;
-  padding-bottom: 96%;
+  padding-bottom: 95%;
   height: 0;
-  padding-top: 19%;
   text-align: center;
-  margin: 0 auto;
+}
+.anne .elipse1 img {
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 80%;
 }
 
 .elipse_text {
@@ -599,12 +625,6 @@ textarea {
   width: 50%;
   height: 100px;
   border: 1px solid black;
-}
-
-.pasek1 {
-  width: 90%;
-  height: 40px;
-  background-color: #9f449b;
 }
 
 /*# sourceMappingURL=style.css.map */
