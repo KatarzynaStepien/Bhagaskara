@@ -48,12 +48,12 @@ $new_width: 8.3333%;
       .main_text{
         h1 {
           color: white;
-          font-size: 48px;
+          font-size: 44px;
           text-align: center;
         }
         p {
           color: white;
-          font-size: 24px;
+          font-size: 22px;
           text-align: center;
         }
       }
@@ -61,6 +61,24 @@ $new_width: 8.3333%;
 
 
 //ikony z headera
+
+@media (max-width: 840px) {
+  .hide {
+    display: none;
+  }
+}
+
+@media (max-width: 735px) {
+
+  .menuHide {
+    display: none;
+  }
+  nav.mobileNav{
+    display: block;
+  }
+
+
+}
 
 .icons {
   width: 75%;
@@ -77,36 +95,36 @@ $new_width: 8.3333%;
 
 .icons_1 {
   background-image: url("../img/icons/icon_shape.png");
-  margin: 137% auto 0;
+  margin: 85% auto 0;
  }
 
 .icons_2 {
   background-image: url("../img/icons/icon_shape.png");
-  margin: 137% auto 0;
+  margin: 85% auto 0;
 }
 .icons_3 {
   width: 75%;
   background-size: 100% auto;
   background-image: url("../img/icons/icon_shape.png");
-  margin: 137% auto 0;
+  margin: 85% auto 0;
 }
 
 .icons_4 {
   width: 75%;
   background-image: url("../img/icons/icon_shape.png");
-  margin: 137% auto 0;
+  margin: 85% auto 0;
 }
 
 .icons_5 {
   width: 75%;
   background-image: url("../img/icons/icon_shape.png");
-  margin: 69% auto;
+  margin: 15% auto;
 }
 
 .icons_6 {
   width: 75%;
   background-image: url("../img/icons/icon_shape2.png");
-  margin: 69% auto;
+  margin: 15% auto;
 }
 
 
@@ -141,6 +159,33 @@ $new_width: 8.3333%;
 .sticky {
   position: fixed;
   top:0;
+}
+//hamburger menu
+
+.notVisible {
+  display: none;
+}
+.menuBtn span {
+  display: block;
+  width: 19px;
+  height: 5px;
+  margin: 4px 0;
+  background: black;
+}
+
+.mobileNav {
+  display:none;
+}
+
+.mobileNav a {
+  background: white;
+  text-decoration: none;
+  color: #9f449b;
+}
+
+.mobileNav li {
+  display: inline-block;
+  padding: 5px;
 }
 
 
@@ -528,7 +573,6 @@ $new_width: 8.3333%;
 .subtitles {
   text-align: center;
 }
-
 
 
 .form {
