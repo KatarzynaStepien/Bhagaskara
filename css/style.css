@@ -178,34 +178,59 @@ table {
 .icons_1 {
   background-image: url("../img/icons/icon_shape.png");
   margin: 85% auto 0;
+  transition: 1s;
+}
+
+.icons_1:hover {
+  background-image: url("../img/icons/icon_shape2.png");
+  margin: 85% auto 0;
 }
 
 .icons_2 {
   background-image: url("../img/icons/icon_shape.png");
   margin: 85% auto 0;
+  transition: 1s;
+}
+
+.icons_2:hover {
+  background-image: url("../img/icons/icon_shape2.png");
+  margin: 85% auto 0;
 }
 
 .icons_3 {
-  width: 75%;
-  background-size: 100% auto;
   background-image: url("../img/icons/icon_shape.png");
+  margin: 85% auto 0;
+  transition: 1s;
+}
+
+.icons_3:hover {
+  background-image: url("../img/icons/icon_shape2.png");
   margin: 85% auto 0;
 }
 
 .icons_4 {
-  width: 75%;
   background-image: url("../img/icons/icon_shape.png");
+  margin: 85% auto 0;
+  transition: 1s;
+}
+
+.icons_4:hover {
+  background-image: url("../img/icons/icon_shape2.png");
   margin: 85% auto 0;
 }
 
 .icons_5 {
-  width: 75%;
   background-image: url("../img/icons/icon_shape.png");
   margin: 15% auto;
+  transition: 1s;
+}
+
+.icons_5:hover {
+  background-image: url("../img/icons/icon_shape2.png");
+  margin: 15% auto 0;
 }
 
 .icons_6 {
-  width: 75%;
   background-image: url("../img/icons/icon_shape2.png");
   margin: 15% auto;
 }
@@ -297,6 +322,11 @@ table {
 
 .icons_2a {
   background-image: url("../img/icons2/shape1.png");
+  transition: 1s;
+}
+
+.icons_2a:hover {
+  background-image: url("../img/icons2/shape2.png");
 }
 
 .icons_3a {
