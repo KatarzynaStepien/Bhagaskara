@@ -217,7 +217,7 @@ $new_width: 8.3333%;
       height: 40px;
       border-radius: 5px;
       background: #9f449b;
-      margin-top: 65px;
+      margin-top: 180px;
       text-align: center;
       text-transform: uppercase;
       padding-top: 8px;
@@ -264,6 +264,8 @@ $new_width: 8.3333%;
   margin-top: -51%;
   text-align: center;
 }
+
+
 
 .anne {
   width: 100%;
@@ -317,17 +319,87 @@ $new_width: 8.3333%;
   width: 100%;
     .ourSkills {
       width: 20%;
-      padding-bottom: 13%;
+      padding-bottom: 20%;
       height: 0;
       padding-top: 7%;
       text-align: center;
       margin: 0 auto;
-      img {
-        width:100%;
-      }
+        img {
+          width:100%;
+        }
     }
+    .scales {
+      width: 100%;
+      height: 250px;
+        .skillWeb {
+          display: inline-block;
+          width: 35%;
+          height: 100px;
+          margin-left: 15%;
+          float: left;
+        }
+      .skillGraphic {
+        display: inline-block;
+        width: 35%;
+        height: 100px;
+        margin-right: 121px;
+        float: right;
+      }
+      .skillH {
+        display: inline-block;
+        width: 35%;
+        height: 100px;
+        margin-left: 15%;
+        float: left;
+      }
+      .skillU {
+        display: inline-block;
+        width: 35%;
+        height: 100px;
+        margin-right: 121px;
+        float: right;
+      }
+  }
+}
+.name {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.percentage {
+  color: #777777;
+  float: right;
+}
+.fullLength {
+  display: block;
+  width: 100%;
+  height: 20px;
+  background-color: #f0f0f0;
+}
+.partWebLength {
+  display: block;
+  width: 90%;
+  height: 20px;
+  background-color: #9f449b;
+}
+.partGraphicLength {
+  display: block;
+  width: 70%;
+  height: 20px;
+  background-color: #9f449b;
 }
 
+.partHtmlLength {
+  display: block;
+  width: 75%;
+  height: 20px;
+  background-color: #9f449b;
+}
+.partUiLength {
+  display: block;
+  width: 85%;
+  height: 20px;
+  background-color: #9f449b;
+}
 
 .cyfry{
   text-align: center;
@@ -348,6 +420,16 @@ $new_width: 8.3333%;
 
 .quotation {
   text-align: center;
+  padding-bottom: 8%;
+  color: #777777;
+}
+.quotation p {
+  margin-top: 5%;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.quotation h1 {
+  font-size: 33px;
 }
 
 .portfolio {
@@ -385,7 +467,7 @@ $new_width: 8.3333%;
   height: 31px;
   border-radius: 5px;
   background: #9f449b;
-  margin-left: 35%;
+  margin-left: 37%;
   margin-top: 4px;
   text-align: center;
   text-transform: uppercase;
@@ -460,7 +542,8 @@ $new_width: 8.3333%;
     text-align: center;
     margin: 0 auto;
     img {
-      width:100%;
+      width: 110%;
+
     }
   }
 }
@@ -508,7 +591,7 @@ textarea {
     height: 40px;
     border-radius: 5px;
     background: #9f449b;
-    margin-left: 22%;
+    margin-left: 17%;
     margin-top: 13px;
     text-align: center;
     text-transform: uppercase;
@@ -531,15 +614,5 @@ textarea {
   height: 20px;
 }
 
-.scales {
-  width: 100%;
-  height: 250px;
-  border: 1px solid black;
-    .skillWeb {
-      width: 50%;
-      height: 100px;
-      border: 1px solid black;
 
-    }
-}
 
