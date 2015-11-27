@@ -89,10 +89,13 @@
 
             <div class="mobileMenu notVisible">
                 <ul>
-                    <li><a href="#">Start</a></li>
-                    <li><a href="#">Kontakt</a></li>
-                    <li><a href="#">Oferta</a></li>
-                    <li><a href="#">O nas</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -504,7 +507,7 @@
             </div>
         </section>
 
-        <section class="form">
+        <section class="contactForm">
             <div class="grid_container">
                 <div class="row">
                     <div class="col-12">
@@ -516,16 +519,21 @@
                 <div class="row">
                     <div class="col-6">
                         <form class="formularz1">
-                            <input type="text" name="Imię" placeholder="Imię">
+                            <input type="text" name="Imię" placeholder="Imię" id="imie">
+                                <span class="formName">Wpisz poprawne imie</span>
                             <br>
-                            <input type="text" name="email" placeholder="email">
+                            <input type="text" name="email" placeholder="email" id="email">
+                                <span class="formEmail">Wpisz poprawny email</span>
                             <br>
-                            <textarea name="message" placeholder="Wiadomość"></textarea>
-                        </form>
+                            <textarea name="message" placeholder="Wiadomość" id="message"></textarea>
+                                <span class="formText">Wpisz poprawną wiadomość</span>
+
                         <div class="contactButton">
                             <button id="button6">Send email</button>
 
                         </div>
+
+                        </form>
                     </div>
                     <div class="col-6">
                         <div class="form_text">

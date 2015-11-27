@@ -663,11 +663,11 @@ table {
   text-align: center;
 }
 
-.form {
+.contactForm {
   width: 100%;
   background: white;
 }
-.form .getInTouch {
+.contactForm .getInTouch {
   width: 20%;
   padding-bottom: 13%;
   height: 0;
@@ -675,7 +675,7 @@ table {
   text-align: center;
   margin: 0 auto;
 }
-.form .getInTouch img {
+.contactForm .getInTouch img {
   width: 110%;
 }
 
@@ -704,6 +704,24 @@ textarea {
 .form_text {
   margin-left: 10%;
   margin-top: 4%;
+}
+
+.formName {
+  display: none;
+  margin-left: 17%;
+  color: red;
+}
+
+.formEmail {
+  display: none;
+  margin-left: 17%;
+  color: red;
+}
+
+.formText {
+  display: none;
+  margin-left: 17%;
+  color: red;
 }
 
 .social_icons {
