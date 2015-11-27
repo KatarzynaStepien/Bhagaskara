@@ -247,11 +247,18 @@ $new_width: 8.3333%;
 }
 .icons_3a {
   background-image: url("../img/icons2/shape1.png");
+  transition: 1s;
+}
+.icons_3a:hover {
+  background-image: url("../img/icons2/shape2.png");
 }
 .icons_4a {
   background-image: url("../img/icons2/shape1.png");
+  transition: 1s;
 }
-
+.icons_4a:hover {
+  background-image: url("../img/icons2/shape2.png");
+}
 
 .tele {
   width: 100%;
