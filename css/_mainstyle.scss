@@ -176,6 +176,7 @@ $new_width: 8.3333%;
 
 .sticky {
   position: fixed;
+  z-index: 100;
   top:0;
 }
 //hamburger menu
@@ -484,14 +485,16 @@ $new_width: 8.3333%;
 }
 
 .smallShape {
-  width: 50%;
+  width: 25%;
   padding-bottom: 25%;
   height: 0;
   margin: 10% auto;
   text-align: center;
+
   img {
-    width: 40%;
+    width: 100%;
     border-radius: 50%;
+    display:inline-block;
     border: 1px solid black;
   }
 }
@@ -508,6 +511,7 @@ $new_width: 8.3333%;
 }
 .quotation h1 {
   font-size: 33px;
+  margin-top: 10%;
 }
 
 .portfolio {
