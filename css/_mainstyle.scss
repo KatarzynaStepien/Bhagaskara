@@ -261,7 +261,7 @@ $new_width: 8.3333%;
   background-image: url("../img/icons2/shape2.png");
 }
 
-.tele {
+#tele {
   width: 100%;
   margin-bottom: 10%;
     .aboutUs {
@@ -344,7 +344,7 @@ $new_width: 8.3333%;
 
 
 
-.anne {
+#anne {
   width: 100%;
     .ourTeam {
       width: 20%;
@@ -392,7 +392,7 @@ $new_width: 8.3333%;
   }
 }
 
-.skills {
+#skills {
   width: 100%;
     .ourSkills {
       width: 20%;
@@ -484,6 +484,12 @@ $new_width: 8.3333%;
   margin-top: 30%;
 }
 
+#services {
+  width: 100%;
+  background-color: #eeeeee;
+}
+
+
 .smallShape {
   width: 25%;
   padding-bottom: 25%;
@@ -514,7 +520,7 @@ $new_width: 8.3333%;
   margin-top: 10%;
 }
 
-.portfolio {
+#portfolio {
   width: 100%;
 }
 
@@ -612,7 +618,7 @@ $new_width: 8.3333%;
 }
 
 
-.contactForm {
+#contactForm {
   width: 100%;
   background: white;
   .getInTouch {

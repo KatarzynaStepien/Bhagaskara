@@ -97,6 +97,31 @@ $(document).ready(function(){
     });
 
 
+    function scrollDown() {
+        $('a').click(function () {
+            $('html, body').animate({
+                scrollTop: $($.attr(this, 'href')).offset().top
+            }, 1500);
+            return false;
+        });
+    }
+    scrollDown();
+
+
+
+
+
+
+//Pierwsza próba ze zdjêciami w galerii
+    //$('.resizableImage').mouseenter(function() {
+    //    $(this).css({height: '+=80%', width: '+=80%'});
+    //});
+    //$('.resizableImage').mouseleave(function() {
+    //    $(this).css({height: "", width: ""});
+    //});
+
+
+
 
 
 

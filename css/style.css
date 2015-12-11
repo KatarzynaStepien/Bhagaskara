@@ -348,11 +348,11 @@ table {
   background-image: url("../img/icons2/shape2.png");
 }
 
-.tele {
+#tele {
   width: 100%;
   margin-bottom: 10%;
 }
-.tele .aboutUs {
+#tele .aboutUs {
   width: 20%;
   padding-bottom: 13%;
   height: 0;
@@ -360,24 +360,24 @@ table {
   text-align: center;
   margin: 0 auto;
 }
-.tele .aboutUs img {
+#tele .aboutUs img {
   width: 120%;
 }
-.tele .teleText {
+#tele .teleText {
   margin: 0 auto;
   margin-left: 10%;
 }
-.tele .teleFoto {
+#tele .teleFoto {
   background-size: 100% auto;
   background-repeat: no-repeat;
   padding-bottom: 66%;
   height: 0;
   text-align: right;
 }
-.tele .teleFoto img {
+#tele .teleFoto img {
   width: 90%;
 }
-.tele #button {
+#tele #button {
   width: 130px;
   height: 40px;
   border-radius: 5px;
@@ -429,10 +429,10 @@ table {
   text-align: center;
 }
 
-.anne {
+#anne {
   width: 100%;
 }
-.anne .ourTeam {
+#anne .ourTeam {
   width: 20%;
   padding-bottom: 13%;
   height: 0;
@@ -440,25 +440,25 @@ table {
   text-align: center;
   margin: 0 auto;
 }
-.anne .ourTeam img {
+#anne .ourTeam img {
   width: 100%;
 }
-.anne .shape {
+#anne .shape {
   width: 8%;
   padding-bottom: 13%;
   height: 0;
   margin: 0 auto;
 }
-.anne .shape img {
+#anne .shape img {
   width: 45%;
 }
-.anne .elipse1 {
+#anne .elipse1 {
   background-size: 100% auto;
   padding-bottom: 95%;
   height: 0;
   text-align: center;
 }
-.anne .elipse1 img {
+#anne .elipse1 img {
   border-radius: 50%;
   border: 1px solid black;
   width: 80%;
@@ -478,10 +478,10 @@ table {
   width: 45%;
 }
 
-.skills {
+#skills {
   width: 100%;
 }
-.skills .ourSkills {
+#skills .ourSkills {
   width: 20%;
   padding-bottom: 20%;
   height: 0;
@@ -489,35 +489,35 @@ table {
   text-align: center;
   margin: 0 auto;
 }
-.skills .ourSkills img {
+#skills .ourSkills img {
   width: 100%;
 }
-.skills .scales {
+#skills .scales {
   width: 100%;
   height: 250px;
 }
-.skills .scales .skillWeb {
+#skills .scales .skillWeb {
   display: inline-block;
   width: 35%;
   height: 100px;
   margin-left: 15%;
   float: left;
 }
-.skills .scales .skillGraphic {
+#skills .scales .skillGraphic {
   display: inline-block;
   width: 35%;
   height: 100px;
   margin-right: 121px;
   float: right;
 }
-.skills .scales .skillH {
+#skills .scales .skillH {
   display: inline-block;
   width: 35%;
   height: 100px;
   margin-left: 15%;
   float: left;
 }
-.skills .scales .skillU {
+#skills .scales .skillU {
   display: inline-block;
   width: 35%;
   height: 100px;
@@ -576,6 +576,11 @@ table {
   margin-top: 30%;
 }
 
+#services {
+  width: 100%;
+  background-color: #eeeeee;
+}
+
 .smallShape {
   width: 25%;
   padding-bottom: 25%;
@@ -607,7 +612,7 @@ table {
   margin-top: 10%;
 }
 
-.portfolio {
+#portfolio {
   width: 100%;
 }
 
@@ -708,11 +713,11 @@ table {
   text-align: center;
 }
 
-.contactForm {
+#contactForm {
   width: 100%;
   background: white;
 }
-.contactForm .getInTouch {
+#contactForm .getInTouch {
   width: 20%;
   padding-bottom: 13%;
   height: 0;
@@ -720,7 +725,7 @@ table {
   text-align: center;
   margin: 0 auto;
 }
-.contactForm .getInTouch img {
+#contactForm .getInTouch img {
   width: 110%;
 }
 
